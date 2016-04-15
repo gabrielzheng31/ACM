@@ -1,16 +1,15 @@
-/*#include <stdio.h>	
+#include <stdio.h>
 
-int main(void)
-{
+int main(void) {
 	int a, b, n, N;
 	n = 1;
 	scanf("%d", &N);
-	while(n++ <= N){
-		if(scanf("%d %d", &a, &b) == 2)
+	while (n++ <= N) {
+		if (scanf("%d %d", &a, &b) == 2)
 			printf("%d\n", a + b);
 	}
 	return 0;
-}*/
+}
 //limited times input
 
 /*#include <stdio.h>
@@ -72,7 +71,7 @@ int main(void)
 			s = s + a;
 		}
 		printf("%d\n", s);
-		
+
 	}
 	return 0;
 }*/
@@ -105,7 +104,7 @@ int main(void)
 	return 0;
 }*/
 
-/*#include <stdio.h>	
+/*#include <stdio.h>
 
 int main(void)
 {
